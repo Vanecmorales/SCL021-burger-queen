@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;700;900&family=Source+Sans+Pro&display=swap');
+
+@media (max-width: 1024px) {
+  .homeContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(30, 30, 30, 1);
+  }
+
+  .homeOptions {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imageHome {
+    width: 50%;
+    height: 20%;
+    margin-top: 27%;
+  }
+
+  .logoHome {
+    width: 80%;
+    margin: 10% 0% 20% 20%;
+  }
+
+  .waiterButton {
+    width: 50%;
+    height: 70px;
+    margin-left: 30%;
+    background: #1e1e1e;
+    border: 2px solid #754e38;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 30px;
+  }
+
+  .kitchenButton {
+    width: 50%;
+    height: 70px;
+    margin: 10% 0% 0% 30%;
+    background: #1e1e1e;
+    border: 2px solid #754e38;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 30px;
+  }
+
+  a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Source Sans Pro;
+    font-size: x-large;
+  }
+}

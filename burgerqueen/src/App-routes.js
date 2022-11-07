@@ -15,9 +15,6 @@ const AppRoutes = () => {
         <Route path="/order" element= {<OrderPage />}/>
         <Route path="/kitchen" element= {<KitchenPage />}/>
       </Routes>
-      {/* <HomePage />
-      <OrderPage />
-      <KitchenPage /> */}
     </div>
   );
 };
