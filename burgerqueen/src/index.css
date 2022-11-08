@@ -52,4 +52,27 @@
     font-family: Source Sans Pro;
     font-size: x-large;
   }
+
+  /*-------------------------Order page-------------------------*/
+
+  .navBar{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 1);
+  }
+
+  .goBackArrow{
+    width: 5%;
+    height: 5%;
+    margin: 2% 0% 2% 2%;
+  }
+
+  .logoNav{
+    width: 20%;
+    height: 20%;
+    margin-top: 0.8%;
+  }
+
 }
