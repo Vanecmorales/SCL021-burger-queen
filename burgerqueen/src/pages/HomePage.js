@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-//Link to = es parecido al a href en HTML.
+import { Link } from "react-router-dom"; //Link to = es parecido al a href en HTML.
+
 
 // import burgerHome from '../assets/img/burgerHome.png';
 import images from "../assets/images";
