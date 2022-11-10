@@ -195,6 +195,11 @@
     justify-content: space-around;
   }
 
+  .itemImage{
+    width: 20%;
+    height: 20%;
+  }
+
   .itemPrice {
     margin-left: 4%;
     font-family: Source Sans Pro;

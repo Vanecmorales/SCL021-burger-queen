@@ -9,15 +9,15 @@ export const OrderPage = () => {
   const [items, setItems] = useState([]);
   return (
     <div className="orderPageContainer">
+      {/* Componente Nav */}
       <Nav />
       <div className="sectionsContainer">
         <section className="menuContainer">
-          <button onClick={() => {setItems(breakfast);}}
-            className="breakfastButton">Desayuno</button>
-          <button onClick={() => {setItems(lunch); }}
-            className="mealsButton">Comidas</button>
+          <button onClick={() => {setItems(breakfast);}} className="breakfastButton">Desayuno</button>
+          <button onClick={() => {setItems(lunch); }} className="mealsButton">Comidas</button>
 
           <section className="menuDetails">
+            {/* Acá van los items del menú */}
             {items.map((item) => (
               <div className="item" key={item.id}>
                 <h4 className="itemName">{item.name}</h4>

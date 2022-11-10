@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import images from "../assets/images";
+// import images from "../assets/images";
 
 // const navigate = useNavigate();
 
@@ -8,26 +8,13 @@ const Nav = () => {
   return (
     <div className="navBar">
       <div className="navLogoContainer">
-        <img
-          className="goBackArrow"
-          src={images.img3}
-          alt="Go back"
-          onClick={() => navigate(-1)}
-        />
-        <img className="logoNav" src={images.img1} alt="Logo" />
+        <img className="goBackArrow" src='/public/img/burgerHome.png' alt="Go back" onClick={() => navigate(-1)}/>
+        <img className="logoNav" src='/public/img/burgerHome.png' alt="Logo" />
       </div>
       <div className="navOptionsContainer">
-        <img
-          className="iconNewOrder"
-          src={images.img4}
-          alt="Icono nueva orden"
-        />
+        <img className="iconNewOrder" src='/public/img/burgerHome.png' alt="Icono nueva orden"/>
         <p className="newOrderText">Nueva orden</p>
-        <img
-          className="iconHistory"
-          src={images.img5}
-          alt="Icono historial de pedidos"
-        />
+        <img className="iconHistory" src='/public/img/burgerHome.png' alt="Icono historial de pedidos"/>
         <p className="orderHistoryText">Historial de pedidos</p>
       </div>
     </div>
