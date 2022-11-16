@@ -13,8 +13,11 @@ export const OrderPage = () => {
       <Nav />
       <div className="sectionsContainer">
         <section className="menuContainer">
+          <div className="menuButtonContainer">
           <button onClick={() => {setItems(breakfast);}} className="breakfastButton">Desayuno</button>
           <button onClick={() => {setItems(lunch); }} className="mealsButton">Comidas</button>
+          </div>
+          
 
           <section className="menuDetails">
             {/* Acá van los items del menú */}
