@@ -12,9 +12,9 @@ export const HomePage = () => {
           <Link to="/kitchen">Cocina</Link>
         </button>
       </div>
+      <div className="imageHomeContainer">
       <img className="imageHome" src='img/burgerHome.png' alt="Burger Home" />
-      {/* <img src={burgerHome} alt="Burger Home"/>
-      <img src='../assets/burgerHome.png' alt="Burger Home"/> */}
+      </div>      
     </div>
   );
 };

@@ -2,14 +2,12 @@ import Nav from "../components/Nav";
 import { useState } from "react";
 import menu from "../data/menu.json";
 
-const breakfast = menu.breakfast;
-const lunch = menu.lunch;
+const {breakfast, lunch} = menu
 
 export const OrderPage = () => {
   const [items, setItems] = useState([]);
   return (
     <div className="orderPageContainer">
-      {/* Componente Nav */}
       <Nav />
       <div className="sectionsContainer">
         <section className="menuContainer">
@@ -35,6 +33,7 @@ export const OrderPage = () => {
             ))}
           </section>
         </section>
+        
         <section className="orderDetailsContainer">
           {/* acá va el detalle de la orden */}
         </section>
