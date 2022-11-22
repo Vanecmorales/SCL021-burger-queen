@@ -2,10 +2,11 @@ import Nav from "../components/Nav";
 import { useState } from "react";
 import menu from "../data/menu.json";
 
-const {breakfast, lunch} = menu
+const {breakfast, lunch} = menu;
 
 export const OrderPage = () => {
-  const [items, setItems] = useState([]);
+  const [items, setItems] = useState([...breakfast]);
+  //El spreat operator establece el estado inicial, en este caso que al entrar a la sección de órdenes cargue automaticamente con el menú de desayuno
   return (
     <div className="orderPageContainer">
       <Nav />
